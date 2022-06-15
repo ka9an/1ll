@@ -3,7 +3,7 @@
 	
 	"scripts": {
 		
-		"g": "git add . && git tag 0 && git commit -m \"first commit\" && git push -u origin main -f"
+		"g": "git add . && git tag 0 -f && git commit -m \"first commit\" && git push -u origin main --tags -f"
 	},
 	"dependencies": {
 	

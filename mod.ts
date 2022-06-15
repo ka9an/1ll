@@ -17,7 +17,7 @@ const kv = gokv.DurableKV({ namespace: "xxx" })
 
     var rr = re.clone()
         rr = await rr.json()
-        console.log(rr)
+       // console.log(rr)
 
 //console.log(re)
 
