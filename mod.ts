@@ -1,5 +1,5 @@
 import gokv from "https://deno.land/x/gokv@0.0.12/mod.ts";
-gokv.config({ token: Deno.env.get("0h0l3e392d722v1v0e6u3g615g1m61405m6y51304l1a5r5e") })
+gokv.config({ token: "0h0l3e392d722v1v0e6u3g615g1m61405m6y51304l1a5r5e" })
 
 var se = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 var X = se[Math.floor(Math.random() * (se.length - 1))] + se[Math.floor(Math.random() * (se.length - 1))] + se[Math.floor(Math.random() * (se.length - 1))]
