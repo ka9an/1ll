@@ -15,17 +15,17 @@ export default async function go(re){
 
 const kv = gokv.DurableKV({ namespace: "xxx" })
 
-    var rr = re.clone()
-        rr = await rr.json()
+    //var rr = re.clone()
+       // rr = await rr.json()
        // console.log(rr)
 
 //console.log(re)
 
 //console.log([X,E])
 //await kv.put(X, E)
-re = await kv.list()
+
 //console.log(re)
-return re
+return await kv.list()
 
   //const url = new URL(req.url);
 
